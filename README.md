@@ -1,6 +1,9 @@
 <div align="center" id="top"> 
-  <!-- <img src="./.github/app.gif" alt="Covid 19 Map" /> -->
-
+  <picture>
+       <source media="(prefers-color-scheme: dark)" srcset="./.github/assets/preview-dark.gif" >
+       <source media="(prefers-color-scheme: light)" srcset="./.github/assets/preview-light.gif" >
+       <img src="./.github/assets/preview-light.gif" alt="covid 19 map preview" />
+  </picture>
 &#xa0;
 
   <!-- <a href="https://covid19map.netlify.app">Demo</a> -->
@@ -73,7 +76,7 @@ $ docker build -t covid-map .
 # Run the Docker Container
 $ docker run -d --rm -p 8080:8080 --name covid-map-container covid-map
 
-# The server will initialize in the <http://localhost:5173>
+# The server will initialize in the <http://localhost:8080>
 ```
 
 ## :memo: License
