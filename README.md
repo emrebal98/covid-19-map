@@ -68,7 +68,7 @@ $ git clone https://github.com/emrebal98/covid-19-map
 $ cd covid-19-map
 
 # Create .env file
-$ cp .env.example .env # my api key 0149c2504fmsh35ef993c1d85b20p1cfc3djsn7a789e7e7b06
+$ cp .env.example .env
 
 # Build the Dockerfile
 $ docker build -t covid-map .
